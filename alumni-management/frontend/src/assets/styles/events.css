@@ -1,0 +1,36 @@
+.hover-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+
+.btn-outline-primary {
+  border-radius: 25px;
+  padding: 8px 20px;
+}
+
+.btn-outline-primary:hover {
+  transform: scale(1.02);
+}
+
+.fa-calendar, .fa-map-marker-alt {
+  color: #6c757d;
+}

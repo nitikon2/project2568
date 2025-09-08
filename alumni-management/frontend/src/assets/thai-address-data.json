@@ -1,0 +1,42 @@
+{
+  "provinces": [
+    {
+      "name": "กรุงเทพมหานคร",
+      "districts": [
+        {
+          "name": "เขตพระนคร",
+          "subdistricts": [
+            {"name": "พระบรมมหาราชวัง", "postcode": "10200"},
+            {"name": "วังบูรพาภิรมย์", "postcode": "10200"}
+          ]
+        },
+        {
+          "name": "เขตดุสิต",
+          "subdistricts": [
+            {"name": "ดุสิต", "postcode": "10300"},
+            {"name": "วชิรพยาบาล", "postcode": "10300"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "เชียงใหม่",
+      "districts": [
+        {
+          "name": "อำเภอเมืองเชียงใหม่",
+          "subdistricts": [
+            {"name": "ศรีภูมิ", "postcode": "50200"},
+            {"name": "ช้างม่อย", "postcode": "50300"}
+          ]
+        },
+        {
+          "name": "อำเภอสันทราย",
+          "subdistricts": [
+            {"name": "สันทรายหลวง", "postcode": "50210"},
+            {"name": "หนองแหย่ง", "postcode": "50210"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+.dashboard-stat-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+  border-radius: 10px;
+}
+
+.dashboard-stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.stat-icon i {
+  font-size: 1.5rem;
+}
+
+.bg-primary {
+  background: linear-gradient(45deg, #4e73df, #224abe);
+}
+
+.bg-success {
+  background: linear-gradient(45deg, #1cc88a, #13855c);
+}
+
+.bg-warning {
+  background: linear-gradient(45deg, #f6c23e, #dda20a);
+}
+
+.bg-info {
+  background: linear-gradient(45deg, #36b9cc, #258391);
+}
+
+.table th {
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.badge {
+  padding: 0.5em 0.8em;
+  font-weight: 500;
+}

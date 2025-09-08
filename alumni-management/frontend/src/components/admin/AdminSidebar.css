@@ -1,0 +1,46 @@
+.admin-sidebar {
+    width: 200px;
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 20px;
+}
+
+.admin-sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.admin-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.admin-sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+}
+
+.admin-sidebar nav ul li a.active,
+.admin-sidebar nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sidebar-nav .nav-link {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.sidebar-nav .nav-link:last-child {
+  margin-bottom: 0;
+}
